@@ -46,7 +46,7 @@ rtc = RTC()
 # wifi connection
 wifi = network.WLAN(network.STA_IF) # station mode
 wifi.active(True)
-wifi.connect("Totalplay-D9AA","D9AADA5AjTMef7cP", channel=7)
+wifi.connect("**********","***********", channel=7)
 
 # wait for connection
 while not wifi.isconnected():
